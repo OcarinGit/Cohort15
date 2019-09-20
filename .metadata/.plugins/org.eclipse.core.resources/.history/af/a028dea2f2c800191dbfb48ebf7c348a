@@ -1,0 +1,51 @@
+package com.hibernatepractica2;
+
+import java.util.ArrayList;
+
+public class Clientes {
+	
+	private String idCliente;
+	private String nombreCliente;
+	private String domicilioCliente;
+	private ArrayList<Telefonos> listaTelefonos;
+	public Clientes()
+	{
+	}
+	public Clientes(String idCliente, String nombreCliente, String domicilioCliente,
+			ArrayList<Telefonos> listaTelefonos) {
+		super();
+		this.idCliente = idCliente;
+		this.nombreCliente = nombreCliente;
+		this.domicilioCliente = domicilioCliente;
+		this.listaTelefonos = listaTelefonos;
+	}
+	public String getIdCliente() {
+		return idCliente;
+	}
+	public void setIdCliente(String idCliente) {
+		this.idCliente = idCliente;
+	}
+	public String getNombreCliente() {
+		return nombreCliente;
+	}
+	public void setNombreCliente(String nombreCliente) {
+		this.nombreCliente = nombreCliente;
+	}
+	public String getDomicilioCliente() {
+		return domicilioCliente;
+	}
+	public void setDomicilioCliente(String domicilioCliente) {
+		this.domicilioCliente = domicilioCliente;
+	}
+	public ArrayList<Telefonos> getListaTelefonos() {
+		return listaTelefonos;
+	}
+	public void setListaTelefonos(ArrayList<Telefonos> listaTelefonos) {
+		this.listaTelefonos = listaTelefonos;
+	}
+	@Override
+	public String toString() {
+		return "Clientes [idCliente=" + idCliente + ", nombreCliente=" + nombreCliente + ", domicilioCliente="
+				+ domicilioCliente + ", listaTelefonos=" + listaTelefonos + "]";
+	}
+}

@@ -1,0 +1,25 @@
+h2
+{
+	color:blue;
+}
+
+.btnWidth 
+{
+	width: 80px;
+}
+
+.tableUpdated
+{
+	width: 90% !important;
+	margin: 17px 58px 0 !important;
+}
+
+.btnSpace
+{
+	margin: 17px;
+} 
+
+.updateBtnStyle
+{
+	width: 80px !important;         
+}

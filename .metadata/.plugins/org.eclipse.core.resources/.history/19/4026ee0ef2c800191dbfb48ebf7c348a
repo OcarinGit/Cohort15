@@ -1,0 +1,11 @@
+package com.hibernatepractica2;
+
+import java.util.ArrayList;
+
+public class Telefonos 
+{
+	private String idTelefono;
+	private String telefono;
+	private String horario;
+	private ArrayList<Clientes> idCliente;
+}

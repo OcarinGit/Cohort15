@@ -1,0 +1,13 @@
+package com.algoritmospractica12.application;
+
+public class Mensajes {
+	
+	public String diHola()
+	{
+		return "Hola Tú";
+	}
+	public String diFriendzone()
+	{
+		return "Solo amigos";
+	}
+}

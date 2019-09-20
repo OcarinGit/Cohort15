@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Aug 29 18:56:01 CDT 2019
+org.eclipse.jst.jee.server\:JSFCRUD=E\:\\Tomcatv9021\\wtpwebapps\\JSFCRUD
+org.eclipse.jst.jee.server\:JSFHolaMundo=E\:\\Tomcatv9021\\wtpwebapps\\JSFHolaMundo

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+	<title>Create Client</title>
+	<h:outputStylesheet name="css/boostrap.min.css"/>
+	<h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+	<h:form id="frmCreateClients" class="form-horizontal">
+		<div class="form-group">
+			<div class="col-sm-4"></div>
+			<h2 class="col-sm-4">Create Client Record</h2>
+		</div>
+	<hr/>
+	<div class="form-group">
+		<h:outputLabel for="txtIdClient" class="control-label col-sm-4">Client Id:</h:outputLabel>
+		<div class="col-sm-4">
+		<h:inputText id="txtIdClient" value="#{clientBean.idClient}"></h:inputText>
+		<f:validateRequired/>
+		</div>
+	</div>
+	<div class="form-group">
+		<h:outputLabel for="txtNameClient" class="control-label col-sm-4">Client Name:</h:outputLabel>
+		<div class="col-sm-4">
+		<h:inputText id="txtNameClient" value="#{clientBean.nameClient}"></h:inputText>
+		<f:validateRequired/>
+		</div>
+	</div>
+	<div class="form-group">
+		<h:outputLabel for="txtAddressClient" class="control-label col-sm-4">Address Name:</h:outputLabel>
+		<div class="col-sm-4">
+		<h:inputText id="txtAddressClient" value="#{clientBean.addressClient}"></h:inputText>
+		<f:validateRequired/>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<div class="col-sm-2">
+			<h:commandButton value="Save" action="#{clientBean.saveClientDetails(clientBean)}" class="btn btn-primary btnWidth"></h:commandButton>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+			<h:link outcome="clientsList" value="View Clients List" class="btn btn-primary"></h:link>
+			</div>
+		</div>
+	</div>
+	</h:form>
+	<h:outputScript name="js/jquery-3.4.1.min.js"></h:outputScript>
+	<h:outputScript name="js/popper.min.js"></h:outputScript>
+	<h:outputScript name="js/bootstrap.min.js"></h:outputScript>
+	<h:outputScript name="js/script.js"></h:outputScript>
+</h:body>
+</html>

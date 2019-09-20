@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="Stylesheet" href="css/style.css">
+</head>
+<body>
+	<h2>Práctica 4 Gson</h2>
+	<form action="AltaPerroServlet" method="post">
+		<p>
+		<label for="txtId">Id Perro:</label>
+		<input type="text" id="txtId" name="txtId">
+		</p>
+		<p>
+		<label for="txtNombre">Nombre Perro:</label>
+		<input type="text" id="txtNombre" name="txtNombre">
+		</p>
+		<p>
+		<label for="txtFechaNacimiento">Fecha Nacimiento Perro:</label>
+		<input type="date" id="txtFechaNacimiento" name="txtFechaNacimiento">
+		</p>
+		<p>
+		<input type="submit" value="Guarda Datos del Perritu">
+		</p>
+	</form>
+	<hr/>
+	<form action="SerializaServlet" method="post">
+		<p>
+			<label for="txtJson">Teclea tu Json:</label>
+			<input type="text" id="txtJson" name="txtJson">
+		</p>
+		<p>
+			<input type="submit" value="Serializa (Marshall - Unmarshall) el Json">
+		</p>
+	</form>
+</body>
+<script src="script/script.js"></script>
+</html>

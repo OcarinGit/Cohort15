@@ -1,0 +1,33 @@
+package com.hibernatepractica2;
+
+public class Clientes {
+	
+	private String idCliente;
+	private String nombreCliente;
+	public Clientes() {
+	}
+	public Clientes(String idCliente, String nombreCliente, String domicilioCliente) {
+		this.idCliente = idCliente;
+		this.nombreCliente = nombreCliente;
+		this.domicilioCliente = domicilioCliente;
+	}
+	public String getIdCliente() {
+		return idCliente;
+	}
+	public void setIdCliente(String idCliente) {
+		this.idCliente = idCliente;
+	}
+	public String getNombreCliente() {
+		return nombreCliente;
+	}
+	public void setNombreCliente(String nombreCliente) {
+		this.nombreCliente = nombreCliente;
+	}
+	public String getDomicilioCliente() {
+		return domicilioCliente;
+	}
+	public void setDomicilioCliente(String domicilioCliente) {
+		this.domicilioCliente = domicilioCliente;
+	}
+	private String domicilioCliente;
+}

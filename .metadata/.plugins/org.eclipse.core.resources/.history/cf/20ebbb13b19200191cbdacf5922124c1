@@ -1,0 +1,18 @@
+package com.algoritmospractica12.application;
+
+public class AlgoritmosPractica12 {
+
+	public static void main(String[] args) {
+		Mensajes objMensaje1 = new Mensajes("Hola Mundo");
+		Mensajes objMensaje2 = new Mensajes("Hola Loosers");
+		
+		System.out.println("ojbMensaje1:"+objMensaje1.diFriendzone());
+		System.out.println("ojbMensaje1:"+objMensaje1.diHola());
+		System.out.println("objMensaje1:"+objMensaje1.getMiMensaje());
+		
+		System.out.println("ojbMensaje2:"+objMensaje2.diFriendzone());
+		System.out.println("ojbMensaje2:"+objMensaje2.diHola());
+		System.out.println("objMensaje2:"+objMensaje2.getMiMensaje());
+	}
+
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://wspractica1.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://wspractica1.com" xmlns:intf="http://wspractica1.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://wspractica1.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="diHola">
+    <complexType>
+     <sequence>
+      <element name="nombre" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="diHolaResponse">
+    <complexType>
+     <sequence>
+      <element name="diHolaReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="diHolaRequest">
+
+      <wsdl:part element="impl:diHola" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="diHolaResponse">
+
+      <wsdl:part element="impl:diHolaResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="HolaMundo">
+
+      <wsdl:operation name="diHola">
+
+         <wsdl:input message="impl:diHolaRequest" name="diHolaRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:diHolaResponse" name="diHolaResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="HolaMundoSoapBinding" type="impl:HolaMundo">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="diHola">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="diHolaRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="diHolaResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="HolaMundoService">
+
+      <wsdl:port binding="impl:HolaMundoSoapBinding" name="HolaMundo">
+
+         <wsdlsoap:address location="http://localhost:8080/CRUDMVCPractica2/services/HolaMundo"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

@@ -1,0 +1,43 @@
+INDEX VERSION 1.131
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4016498908.index
+\MavenPractica4\src\main\resources
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3164146293.index
+\ctest1
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1909519889.index
+\CRUDMVCPractica2\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4082765871.index
+\MavenPractica3\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1109882278.index
+\PracticaGit1\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2196493514.index
+\testsvnone\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1559927246.index
+\JuliaRepo\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1726545508.index
+\SVNPractica1\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2790017406.index
+\CRUDMVCPractica2Client\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\355208090.index
+\MVCPractica7Session\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2476303085.index
+\DBPractica1\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2671099684.index
+\MVCPractica6JSP\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1436947927.index
+\MVCPractica2\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2106428635.index
+\holamundo2\src\main\resources
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1870809134.index
+\RestPractica3\src\main\resources
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1033191836.index
+\RestPractica2\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2735631978.index
+\RestPractica3\src\main\resources
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2361775338.index
+\holamundo2\src\main\resources
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1103079864.index
+\CRUDMVC\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2267948614.index
+\GitPractica1\src
+E:\Ocarin\Generation\Generation 2019B\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2387137885.index
+\MVCPractica5JSP\src

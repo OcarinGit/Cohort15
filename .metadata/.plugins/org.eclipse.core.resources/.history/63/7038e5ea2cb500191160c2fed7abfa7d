@@ -1,0 +1,29 @@
+package com.crudmvcpractica2.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.crudmvcpractica2.model.Productos;
+
+@WebServlet("/CreateProductPrepareServlet")
+public class CreateProductPrepareServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Productos miProducto = new Productos(); 
+		//Paso 1. Declarar Variables
+		//Paso 2. Declarar Objetos
+		//Paso 3. Instanciar el Driver
+		//Paso 4. Abrir conexión
+		//Paso 5. Configurar el prepared statement
+		//Paso 6. Configurar la sentencia SQL
+		//Paso 7. Ejecutar el Prepared Statement
+		//Paso 8. Mostrar resultados
+		//Paso 9. Cerrar conexión
+	}
+
+}

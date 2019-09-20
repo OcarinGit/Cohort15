@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.mvcpractica9ajax.controller"},{"l":"com.mvcpractica9ajax.model"}]

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.practica2&apos; to &apos;com.hibernatepractica2&apos;&#x0D;&#x0A;- Original project: &apos;HibernatePractica2&apos;&#x0D;&#x0A;- Original element: &apos;HibernatePractica2/src/com.practica2&apos;&#x0D;&#x0A;- Renamed element: &apos;HibernatePractica2/src/com.hibernatepractica2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.practica2&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.practica2" name="com.hibernatepractica2" qualified="false" references="true" stamp="1566931380612" textual="false" version="1.0"/>
+</session>

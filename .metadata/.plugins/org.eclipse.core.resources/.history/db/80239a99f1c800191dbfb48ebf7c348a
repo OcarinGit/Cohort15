@@ -1,0 +1,9 @@
+package com.hibernatepractica2;
+
+public class Telefonos 
+{
+	private String idTelefono;
+	private String telefono;
+	private String horario;
+	private ArrayList<Clientes> idCliente;
+}

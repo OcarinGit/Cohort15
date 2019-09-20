@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+	<h:outputStylesheet name="css/boostrap.min.css"/>
+	<h:outputStylesheet name="css/style.css"/>
+	<title>Clients List</title>
+</h:head>
+<h:body>
+	<h2><h:outputText>Clients List</h:outputText></h2>
+	<h:form id="clientForm">
+	<h:dataTable id="ClientsTable" binding="#{table}" value="#{clientBean.clientList()}" var="client" class="table table-striped table-hover table-bordered tableUpdated">
+	<h:column>
+		<f:facet name="header">Id Client:</f:facet>
+		<h:outputText value="#{table.rowIndex+1}"></h:outputText>
+	</h:column>
+	<h:column>
+		<f:facet name="header">Name Client:</f:facet>
+		<h:outputText value="#{client.nameClient}"></h:outputText>
+	</h:column>
+	<h:column>
+		<f:facet name="header">Address Client:</f:facet>
+		<h:outputText value="#{client.addressClient}"></h:outputText>
+	</h:column>
+	<h:column>
+		<f:facet name="header">Update</f:facet>
+		<h:outputText value="#{client.editClientRecord(client.idClient)}" value="update" class="btn btn-primary"></h:outputText>
+	</h:column>
+	<h:column>
+		<f:facet name="header">Delete</f:facet>
+		<h:outputText value="#{client.deleteClientRecord(client.idClient)}" value="delete" class="btn btn-danger"></h:outputText>
+	</h:column>
+	</h:dataTable>
+	<center>
+		<h:commandButton action="CreateClient.xhtml?faces-redirect=true" value="Create new Client" class="btn btn-success btnSpace"></h:commandButton>
+	</center>
+	</h:form>
+	
+	
+	<h:outputScript name="js/jquery-3.4.1.min.js"></h:outputScript>
+	<h:outputScript name="js/popper.min.js"></h:outputScript>
+	<h:outputScript name="js/bootstrap.min.js"></h:outputScript>
+	<h:outputScript name="js/script.js"></h:outputScript>
+</h:body>
+</html>

@@ -1,0 +1,43 @@
+//Ejemplo 1 Json de Arrays Vacío
+[]
+
+//Ejemplo 2 Json de Arrays y Arrays
+[
+[],[],[],[]
+]
+
+//Ejemplo 3 Json de Arrays de cadenas
+[
+"Dani","Fanny", "Janni", "Meli","Romi"
+]
+
+//Ejemplo 4 Json de números
+[
+10, 20, 30, 40, 10.5, -10.3, 4.5e2, 3.4E-10
+]
+
+//Ejemplo 5 Json de Arrays
+[
+	[
+		10,
+		20,
+		30
+	],
+	[
+		"p",
+		"u",
+		"e",
+		"c",
+		"o"
+	],
+	[
+		1.2,
+		3.4,
+		5.6
+	],
+	[
+		"Emma",
+		"Alam",
+		"Magda"
+	]
+]

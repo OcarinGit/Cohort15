@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Productos.java&apos; to &apos;CRUDRestClient/src/com.crudrestclient.model&apos;&#x0D;&#x0A;- Original project: &apos;CRUDRest&apos;&#x0D;&#x0A;- Destination element: &apos;CRUDRestClient/src/com.crudrestclient.model&apos;&#x0D;&#x0A;- Original element: &apos;com.crudrest.model.Productos.java&apos;" description="Copy compilation unit" destination="=CRUDRestClient/src&lt;com.crudrestclient.model" element1="/src&lt;com.crudrest.model{Productos.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1566953159881" units="1" version="1.0"/>
+</session>

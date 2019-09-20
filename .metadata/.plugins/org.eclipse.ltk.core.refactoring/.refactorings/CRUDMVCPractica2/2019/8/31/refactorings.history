@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.crudmvc.model&apos; to &apos;com.crudmvcpractica2.model&apos;&#x0D;&#x0A;- Original project: &apos;CRUDMVCPractica2&apos;&#x0D;&#x0A;- Original element: &apos;CRUDMVCPractica2/src/com.crudmvc.model&apos;&#x0D;&#x0A;- Renamed element: &apos;CRUDMVCPractica2/src/com.crudmvcpractica2.model&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.crudmvc.model&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.crudmvc.model" name="com.crudmvcpractica2.model" qualified="false" references="true" stamp="1564753585633" textual="false" version="1.0"/>
+</session>
